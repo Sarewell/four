@@ -1,0 +1,59 @@
+@import url('global.css');
+@import url('header.css');
+@import url('footer.css');
+
+/* body/content */
+
+/* body/content */
+section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.section_h2 {
+  font-size: 3rem;
+  color: #333A7B;
+  font-weight: 600;
+  padding-bottom: 65px;
+}
+
+.section_card {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* card style */
+.card_container {
+  box-shadow: 2px 2px 2px #d1d1d1;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.card_container .image {
+  height: 14rem;
+}
+
+.card_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card_body h3 {
+  padding-bottom: 15px;
+}
+
+.card_body {
+  padding: 20px 30px;
+}
+
+.card_description {
+  padding-bottom: 12px;
+}
+
+.card_body_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* end card style  */
