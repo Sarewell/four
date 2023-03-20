@@ -5,11 +5,11 @@
 /* hero */
 #hero {
   text-align: center;
-  background-image: url('');
+  background-image: url('../images/hero.avif');
   background-position: center;
   background-size: cover;
-  height: 600px;
-  color: #fff;
+  height: 900px;
+  color: #ffffff; 
   display: flex;
   flex-direction: column;
   justify-content: center;

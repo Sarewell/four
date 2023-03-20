@@ -51,7 +51,7 @@
 			<!-- end div logo -->
 			<!-- navigation -->
             
-			<nav class= "text-white text-xl pr-10">
+			<nav class= "text-white text-xl space-x-5">
             <?php
             foreach($navItems as $navItem){?>
                 <a href="<?=$navItem['url']?>" class= "hover:text-[#B4FFD8] hover:underline pl-5 "><?=$navItem['name']?></a>
